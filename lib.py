@@ -5,6 +5,10 @@ def factorization(n):
     factors = []
 
     def get_factor(n):
+        '''
+        n = the number to find factors of.
+        factors will return a list of factor numbers of n.
+        '''
         x_fixed = 2
         cycle_size = 2
         x = 2
